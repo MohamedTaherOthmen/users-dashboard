@@ -4,8 +4,8 @@
   margin-top: 10px;
   text-align: center;
   background-color: rgba(194, 133, 255, 0.897);
-  border: none; /* Remove Bootstrap's default border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  border: none; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-title .title, 

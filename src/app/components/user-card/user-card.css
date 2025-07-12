@@ -19,9 +19,7 @@ button {
   text-align: left;
 }
 
-button:hover,
-button:active,
-.active {
+button:hover{
   background-color: #9965dd;
   color: #150722;
 }
@@ -37,5 +35,5 @@ span {
   margin: 0;
   padding: 0;
   font-size: 0.8rem;
-  font-weight: normal;
+  font-weight: bold;
 }

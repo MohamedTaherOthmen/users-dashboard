@@ -3,16 +3,22 @@
     <app-error></app-error>
   } @else {
     <ul class="users">
-      @for(utilisateur of utilisateurs; track utilisateur.id) {
+      <li><span class="user-title">USERS: </span></li>
+      @for(utilisateur of utilisateurs;track utilisateur.id){
         <li>
-          <app-user-card [user]="utilisateur" (onUserClicked)="SelectedUser($event)"/>
+          <app-user-card [user]="utilisateur" (onUserClicked)="SelectedUser($event)" />
         </li>
-      } @empty {
+      }@empty{
         <li>No users available</li>
       }
     </ul>
   }
-  @if (usershown){
-    <app-user-spesification [user]="clickedUser" />
-  }
+  <ul>
+    <li>
+      <span class="user-title">USER SPECIFICATIONS: </span>
+      @if (usershown){
+        <app-user-spesification [user]="clickedUser"/>
+      }
+    </li>
+  </ul>
 </main>
