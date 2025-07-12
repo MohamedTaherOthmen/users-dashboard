@@ -20,6 +20,7 @@ export class App implements OnInit {
   utilisateurs : utilisateurs[] = [];
   errorLoading : boolean = false;
   clickedUser !: utilisateurs;
+  usershown : boolean = false;
   
   async ngOnInit() {
     const url = "https://dummyjson.com/users";
@@ -53,5 +54,6 @@ export class App implements OnInit {
 
   SelectedUser(user: utilisateurs){
     this.clickedUser = user;
+    this.usershown = true;
   }
 }

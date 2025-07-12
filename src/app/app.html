@@ -12,5 +12,7 @@
       }
     </ul>
   }
-  <app-user-spesification [user]="clickedUser" />
+  @if (usershown){
+    <app-user-spesification [user]="clickedUser" />
+  }
 </main>

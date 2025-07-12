@@ -1,4 +1,3 @@
-/* Custom styles to enhance Bootstrap */
 .card {
   width: 25rem;
   margin-left: 50px;
@@ -9,7 +8,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 
-/* Fix your selector - remove the space between span and .card-title */
 .card-title .title, 
 .card-text .title {
   color: black;
