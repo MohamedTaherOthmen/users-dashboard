@@ -22,6 +22,8 @@ A training project demonstrating core Angular concepts with user data fetched fr
 | Dynamic Classes   | `[class.active]` for selected user |
 | Event Handling    | `(click)` and custom events |
 | Async Operations  | `fetch()` with async/await |
+| Git | Version Control System and command explained |
+| GitHub  | remote Repositries, clone and push |
 
 ## Installation
 
