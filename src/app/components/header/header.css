@@ -1,0 +1,26 @@
+div{
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-left: 400px;
+    text-align: center;
+    display:inline-block;
+    background-color: #433352;
+    margin-top: 20px;
+}
+
+.header-title{
+    font-weight: bold;
+    color: white;
+}
+
+.sub-title, a{
+    padding-top: 1px;
+    color: grey;
+    font-size: smaller;
+}
+
+.header-image{
+    border-radius: 50%;
+    width: 20rem;
+}

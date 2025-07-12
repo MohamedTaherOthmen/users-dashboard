@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 import { UserCard } from './components/user-card/user-card';
-import { type utilisateurs } from "./users/users.model";
 import { Error } from "./components/error/error";
 import { UserSpesification } from "./components/user-spesification/user-spesification";
+import { Header } from './components/header/header';
+
+import { type utilisateurs } from "./users/users.model";
 
 
 @Component({
@@ -12,7 +14,8 @@ import { UserSpesification } from "./components/user-spesification/user-spesific
   imports: [
     UserCard,
     Error,
-    UserSpesification
+    UserSpesification,
+    Header
 ],
   templateUrl: './app.html',
   styleUrl: './app.css'
