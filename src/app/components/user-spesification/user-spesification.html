@@ -1,7 +1,7 @@
 <div class="card">
   <img [src]="user.image_url" class="card-img-top" [alt]="user.id">
   <div class="card-body">
-    <h5 class="card-title"><span class="title">USER : </span>{{ user.firstName + ' ' + user.lastName }}</h5>
+    <h5 class="card-title"><span class="title">USER {{user.id}}: </span>{{ user.firstName + ' ' + user.lastName }}</h5>
     <p class="card-text"><span class="title">AGE : </span>{{ user.age }}</p>
     <p class="card-text"><span class="title">EMAIL : </span>{{ user.email }}</p>
   </div>

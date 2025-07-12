@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserCard } from './components/user-card/user-card';
-import { type utilisateurs } from "./components/users/users.model";
+import { type utilisateurs } from "./users/users.model";
 import { Error } from "./components/error/error";
 import { UserSpesification } from "./components/user-spesification/user-spesification";
 

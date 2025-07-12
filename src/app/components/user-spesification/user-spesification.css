@@ -1,7 +1,25 @@
-.card{
-    width: 20rem;
-    margin-left: 50px;
-    margin-top: 10px;
-    text-align: center; 
-    background-color: rgba(194, 133, 255, 0.897);
+/* Custom styles to enhance Bootstrap */
+.card {
+  width: 25rem;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgba(194, 133, 255, 0.897);
+  border: none; /* Remove Bootstrap's default border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Fix your selector - remove the space between span and .card-title */
+.card-title .title, 
+.card-text .title {
+  color: black;
+  font-weight: bold;
+}
+.card-img-top {
+  border-radius: 50%; 
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-top: 15px;
 }
