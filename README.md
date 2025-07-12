@@ -14,6 +14,7 @@ A training project demonstrating core Angular concepts with user data fetched fr
 
 | Concept           | Implementation Example         |
 |-------------------|--------------------------------|
+| Bootstrap | CSS Bootstrap Integration to your project |
 | `@Input()`        | Passing user data to child components |
 | `@Output()`       | Emitting user selection events |
 | `@for`            | Looping through user list |
@@ -23,7 +24,7 @@ A training project demonstrating core Angular concepts with user data fetched fr
 | Event Handling    | `(click)` and custom events |
 | Async Operations  | `fetch()` with async/await |
 | Git | Version Control System and command explained |
-| GitHub  | remote Repositries, clone and push |
+| GitHub  | remote Repositories, clone and push |
 
 ## Installation
 
