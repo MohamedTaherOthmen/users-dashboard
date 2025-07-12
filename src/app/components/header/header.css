@@ -2,11 +2,12 @@ div{
     border-radius: 6px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
     padding: 15px;
-    margin-left: 400px;
+    margin-left: 22%;
     text-align: center;
     display:inline-block;
     background-color: #433352;
     margin-top: 20px;
+    max-width: 52rem;
 }
 
 .header-title{
@@ -15,12 +16,18 @@ div{
 }
 
 .sub-title, a{
-    padding-top: 1px;
+    margin-top: 1px;
     color: grey;
-    font-size: smaller;
+    font-size: 8px;
 }
 
 .header-image{
     border-radius: 50%;
     width: 20rem;
+}
+
+.header-description{
+    font-size: 12px;
+    text-align: center;
+    color: white;
 }
